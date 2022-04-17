@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Invoice generator</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<header>
+  <h1>Invoice creator</h1>
+  <h2>Thanks for choosing GoodCorp, LLC!</h2>
+</header>
+<main>
+  <div id="buttons">
+    <button id="wash-car">Wash Car: $10</button>
+    <button id="mow-lawn">Mow Lawn: $20</button>
+    <button id="pull-weeds">Pull Weeds: $30</button>
+  </div>
+  <div class="container">
+    <div id="tasks">
+      <p>TASK</p>
+    </div>
+    <div id="tasks-total">
+      <p>TOTAL</p>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div id="notes">
+      <p>NOTES</p>
+    </div>
+    <div id="total-amount">
+      <p>TOTAL AMOUNT</p>
+      <p id="amount-value">$0</p>
+    </div>
+  </div>
+  <button id="send-invoice"><span class="credits">Send Invoice</span></button>
+  <script src="js/main.js"></script>
+</main>
+</body>
+</html>
